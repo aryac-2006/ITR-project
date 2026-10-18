@@ -1,0 +1,13 @@
+# Unpinned (minimum versions only) so pip installs the newest releases,
+# which provide wheels for Python 3.12, 3.13 and 3.14.
+streamlit>=1.40
+pandas>=2.2
+numpy>=2.0
+scipy>=1.13
+scikit-learn>=1.5
+matplotlib>=3.9
+seaborn>=0.13
+joblib>=1.4
+
+# Optional: enables SHAP explanations (larger install; may lag behind new Python versions).
+# shap
